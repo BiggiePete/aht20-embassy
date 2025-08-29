@@ -21,12 +21,4 @@ embassy-sync = "0.7.2"
 embedded-hal = "1.0.0"
 embedded-hal-async = "1.0.0"
 panic-probe = { version = "1", features = ["print-defmt"] }
-embassy-stm32 = { version = "0.2.0", features = [
-  "defmt",
-  "time-driver-any",
-  "memory-x",
-  "unstable-pac",
-  "exti",
-  "chrono",
-  "low-power-debug-with-sleep",
-] }
+embassy-stm32 = { version = "0.2.0", features = ["defmt"] }
