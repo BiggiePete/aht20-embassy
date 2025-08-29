@@ -1,7 +1,13 @@
 [package]
 name = "aht20-embassy"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
+authors = ["biggiePete"]
+license = "MIT"
+description = "An async driver for the AHT20 temperature and humidity sensor using embassy."
+repository = "https://github.com/https://github.com/BiggiePete/aht20-embassy/aht20-embassy"
+keywords = ["embedded", "embassy", "aht20", "sensor", "stm32"]
+categories = ["embedded", "hardware-support", "no-std"]
 
 [dependencies]
 
