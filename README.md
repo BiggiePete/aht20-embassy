@@ -22,13 +22,7 @@ This library is designed to be simple, ergonomic, and efficient, without taking 
 
 ## Installation
 
-Add to your `Cargo.toml`:
-
-```toml
-[dependencies]
-aht20-embassy = { git = "https://github.com/BiggiePete/aht20-embassy" }
-# ...other dependencies as shown in this repo's Cargo.toml
-```
+Make sure to bring your own version of embassy-stm32, with a chip selected!
 
 ## Usage
 
