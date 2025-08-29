@@ -1,5 +1,5 @@
 [package]
-name = "aht20-embassy"
+name = "aht20-stm32-embassy"
 version = "0.0.1"
 edition = "2024"
 authors = ["biggiePete"]
