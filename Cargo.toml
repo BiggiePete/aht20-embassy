@@ -1,0 +1,23 @@
+[package]
+name = "aht20-embassy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+defmt = "1"
+defmt-rtt = "1.0.0"
+embassy-time = "0.5.0"
+embassy-sync = "0.7.2"
+embedded-hal = "1.0.0"
+embedded-hal-async = "1.0.0"
+panic-probe = { version = "1", features = ["print-defmt"] }
+embassy-stm32 = { version = "0.2.0", features = [
+  "defmt",
+  "time-driver-any",
+  "memory-x",
+  "unstable-pac",
+  "exti",
+  "chrono",
+  "low-power-debug-with-sleep",
+] }
