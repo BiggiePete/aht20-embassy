@@ -92,7 +92,3 @@ async fn main(_spawner: Spawner) {
  }
 }
 ```
-
-## License
-
-MIT © 2025 Peter C

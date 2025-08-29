@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "aht20-stm32-embassy"
+name = "aht20-embassy-stm32"
 version = "0.0.1"
 dependencies = [
  "defmt 1.0.1",
