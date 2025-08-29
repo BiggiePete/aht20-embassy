@@ -9,6 +9,9 @@ repository = "https://github.com/https://github.com/BiggiePete/aht20-embassy/aht
 keywords = ["embedded", "embassy", "aht20", "sensor", "stm32"]
 categories = ["embedded", "hardware-support", "no-std"]
 
+# to build: cargo build --features embassy-stm32/stm32wle5cb
+
+
 [dependencies]
 
 defmt = "1"
